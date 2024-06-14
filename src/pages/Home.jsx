@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar"
+import { ServicesCard } from "../components/ServicesCard"
 import SimpleSlider from "../components/SimpleSlider"
 import { WebButton } from "../components/WebButton"
 
@@ -62,10 +63,11 @@ export const Home = () => {
 
                         </div>
                         <div className="col-12 col-lg-6 col-md-5">
+                            <ServicesCard/>
+                            <ServicesCard/>
+                            <ServicesCard/>
+                            <ServicesCard/>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>

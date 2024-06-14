@@ -133,4 +133,13 @@ body {
 }
 
 
+/* servies section start */
+.services-card{
+width: 50%; 
+}
+.services-card:hover{
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+ border-radius: 20px;
+}
+/* servies section end */
 @media only screen and (max-width: 768px) {}
