@@ -10,7 +10,7 @@ export const Home = () => {
             <section className="hero ">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-lg-6 col-sm-7 my-5">
+                        <div className="col-12 col-lg-6 col-md-7 my-5">
                             <h1 className="fw-bold width-30px mb-4 lh-sm mt-4">Dive into Delights Of Delectable <a href="" className="text-decoration-none hero-h1-orange">Food</a></h1>
                             <p className="w-75 mb-5">Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
                             <div className="d-flex  align-items-center gap-5">
@@ -45,6 +45,31 @@ export const Home = () => {
                 </div>
             </section>
             {/* Dishes section end */}
+
+
+
+
+            {/* Services section start */}
+            <section className="web-marg-top">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-lg-6 col-md-7 my-5">
+                            <h1 className="sec-h4-italic mb-4"><i>Special Dishes</i></h1>
+
+                            <h1 className="fw-bold width-30px mb-4 lh-sm mt-4">Our Culinary Journey And Services</h1>
+                            <p className="w-75 mb-5">Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.</p>
+                            <WebButton />
+
+                        </div>
+                        <div className="col-12 col-lg-6 col-md-5">
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+            {/* Services section end */}
         </>
     )
 }
