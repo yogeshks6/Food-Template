@@ -32,10 +32,13 @@ export const Home = () => {
                     <div className="row">
                         <div className="col-12 col-lg-12 col-sm-12">
                             <h1 className="sec-h4-italic mb-4"><i>Special Dishes</i></h1>
+                        </div>
+                        <div className="col-12 col-lg-12 col-sm-12 d-flex justify-content-between">
                             <h1>Special Dishes From <br />
                                 Our Menu</h1>
                         </div>
-                        <div className="col-12 col-lg-12 col-sm-12">
+
+                        <div className="row">
                             <SimpleSlider />
                         </div>
                     </div>

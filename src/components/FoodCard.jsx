@@ -1,19 +1,50 @@
 export const FoodCard = () => {
+    const jasondata = [
+        {
+            "prroduct_img": 'images/card-1.png',
+            "price": 24.00,
+            "rating": 4.9,
+            "product_name": "Fattoush salad",
+            "description": "Description of the item"
+        },
+        {
+            "prroduct_img": 'images/card-2.png',
+            "price": 24.00,
+            "rating": 4.9,
+            "product_name": "Fattoush salad",
+            "description": "Description of the item"
+        },
+        {
+            "prroduct_img": 'images/card-3.png',
+            "price": 24.00,
+            "rating": 4.9,
+            "product_name": "Fattoush salad",
+            "description": "Description of the item"
+        },
+
+    ]
     return (
         <>
-            <div className="col-12 col-lg-12 col-sm-12 m-5">
-                <div className="card-food rounded-5  pb-2">
-                    <div className="card-food-heart float-end p-3">
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                    <img src="images/card-1.png" className=" card-food-img pt-4" alt="" />
-                    <div className="ps-4">
-                        <h2>Fattoush salad</h2>
-                        <p>Description of the item</p>
-                        <p><span><i class="fa-solid fa-dollar-sign"></i>24.00</span> <span>4.9</span></p>
-                    </div>
-                </div>
-            </div>
+            {jasondata.map((currElem) => {
+                return (
+                    <div className="col-12 col-lg-12 col-sm-12 m-5">
+                        <div className="card-food rounded-5  pb-2">
+                            <div className="card-food-heart float-end p-3 px-4">
+                                <i className="fa-regular fa-heart"></i>
+                            </div>
+                            <img src={currElem.prroduct_img} className=" card-food-img pt-2 pb-2" alt="" />
+                            <div className="ps-4">
+                                <h2>{currElem.product_name}</h2>
+                                <p>{currElem.description}</p>
+                                <p className="d-flex justify-content-between">
+                                    <span><i className="fa-solid fa-dollar-sign"></i>{currElem.price}</span>
+                                    <span className="pe-4"><i className="fa-solid fa-star"></i>{currElem.rating}</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>)
+            })}
+
         </>
     )
 }

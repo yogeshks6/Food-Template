@@ -55,20 +55,20 @@ body {
   background-size: contain;
   padding: 40px 0px;
   background-repeat: no-repeat;
-  }
+}
 
-  .hero-h1-orange {
-    color: rgba(235, 102, 45, 1);
-    }
-    
-    .width-30px {
+.hero-h1-orange {
+  color: rgba(235, 102, 45, 1);
+}
+
+.width-30px {
   width: 60%;
-  }
-  
-  .home-right-food-img {
-    width: 85%;
-    height: 98%;
-    
+}
+
+.home-right-food-img {
+  width: 85%;
+  height: 98%;
+
 }
 
 .video-play {
@@ -78,48 +78,57 @@ body {
 
 /* Home end */
 
-.sec-h4-italic{
-  color:  rgba(235, 102, 45, 1);
+.sec-h4-italic {
+  color: rgba(235, 102, 45, 1);
   font-family: "Caveat", cursive;
   font-weight: 700;
 }
 
 /* card start */
-.card-food{
+.card-food {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 85%;
 }
-.card-food-heart{
+
+.card-food-heart {
   border: 1px solid black;
   border-radius: 0px 30px 0px 30px;
 }
-.card-food-heart:hover{
+
+.card-food-heart:hover {
   cursor: pointer;
   background-color: #EB662D;
   color: white;
- }
-.card-food-img{
+}
+
+.card-food-img {
   margin-left: 60px;
 }
+
+
 .slick-arrow {
+  right: 62px;
+  left: auto;
   top: 0;
-  right: 48px;
-  padding: 6px;
-  /* border-radius: 50% 50%; */
-  width: 60px;
-  height: 55px;
-  background-color: black;
- }
-.slick-arrow:hover {
-  background-color: #EB662D;
 }
+
 .slick-prev {
   right: 120px;
   left: auto;
+
 }
- 
-.slick-prev:before, .slick-next:before {
-   font-size: 50px;
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 50px;
+  line-height: 1;
+  opacity: .75;
+  color: #ed1717;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 @media only screen and (max-width: 768px) {}

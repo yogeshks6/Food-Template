@@ -2,12 +2,17 @@ import React from "react";
 import Slider from "react-slick";
 import { FoodCard } from "./FoodCard";
 
+
+
+
+
+
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
             className={className}
-            style={{ ...style, display: "block",  }}
+            style={{ ...style, display: "block", }}
             onClick={onClick}
         />
     );
@@ -18,7 +23,7 @@ function SamplePrevArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "block",   }}
+            style={{ ...style, display: "block", }}
             onClick={onClick}
         />
     );
@@ -31,8 +36,8 @@ function SimpleSlider() {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        initialSlide: 0,                
-          nextArrow: <SampleNextArrow />,
+        initialSlide: 0,
+        nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
 
         responsive: [
@@ -42,7 +47,7 @@ function SimpleSlider() {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true 
+                    dots: true
                 }
             },
             {
