@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+/* in src/index.css or a specific component's CSS file */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.web-marg-top {
+  margin-top: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.web-marg-bottom {
+  margin-bottom: 5%;
+}
+
+/* navbar start */
+.nav-logo-bg {
+  background-color: rgba(235, 102, 45, 1);
+}
+
+.nav-drop {
+  cursor: pointer;
+}
+
+.nav-drop-toggle {
+  color: orange;
+}
+
+.nav-eight-position {
+  top: -10px;
+  left: 12px;
+  font-size: 10px;
+  padding: 6px 9px;
+  background-color: rgba(235, 102, 45, 1);
+}
+
+.webButton {
+  background-color: rgba(235, 102, 45, 1) !important;
+  font-size: 20px !important;
+  padding: 11px 41px 14px 41px !important;
+}
+
+.webButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(235, 102, 46, 0.23), 0 17px 50px 0 rgba(235, 102, 46, 0.23);
+}
+
+/* navbar end */
+/* Home start */
+.hero {
+  background-image: url(../public/images/home-bg.png);
+  background-position: right;
+  background-size: contain;
+  padding: 40px 0px;
+  background-repeat: no-repeat;
   }
+
+  .hero-h1-orange {
+    color: rgba(235, 102, 45, 1);
+    }
+    
+    .width-30px {
+  width: 60%;
+  }
+  
+  .home-right-food-img {
+    width: 85%;
+    height: 98%;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.video-play {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Home end */
+
+.sec-h4-italic{
+  color:  rgba(235, 102, 45, 1);
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+}
+
+/* card start */
+.card-food{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 85%;
+}
+.card-food-heart{
+  border: 1px solid black;
+  border-radius: 0px 30px 0px 30px;
+}
+.card-food-heart:hover{
+  cursor: pointer;
+  background-color: #EB662D;
   color: white;
+ }
+.card-food-img{
+  margin-left: 60px;
+}
+.slick-arrow {
+  top: 0;
+  right: 48px;
+  padding: 6px;
+  /* border-radius: 50% 50%; */
+  width: 60px;
+  height: 55px;
+  background-color: black;
+ }
+.slick-arrow:hover {
+  background-color: #EB662D;
+}
+.slick-prev {
+  right: 120px;
+  left: auto;
+}
+ 
+.slick-prev:before, .slick-next:before {
+   font-size: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@media only screen and (max-width: 768px) {}
