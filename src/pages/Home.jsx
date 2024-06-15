@@ -69,8 +69,8 @@ export const Home = () => {
             </section>
             {/* Services section end */}
             {/* Morning section start */}
-            <section className="web-marg-top morning-sec">
-
+            <section className="web-marg-top morning-sec ">
+                {/* <img src="images/leafs.png" className="morning-sec-side-img position-absolute top-0 start-0" alt="" /> */}
                 <div className="container">
                     <div className="row pt-4">
                         <div className="col-12 col-lg-5 col-md-5  mt-3">
@@ -79,7 +79,7 @@ export const Home = () => {
                             <p className="text-light pt-3">Start your day with a delicious and energizing morning <br /> sandwich! Made with fresh ingredients. Enjoy classic egg <br /> and cheese or a gourmet twist with avocado and bacon, <br /> perfect for kickstarting your morning.</p>
                         </div>
                         <div className="col-12 col-lg-7 col-md-7">
-                            <img src="images/morning-sec-sandwich.png" alt="" className="w-100 " />
+                            <img src="images/morning-sec-sandwich.svg" alt="" className="w-100" />
                         </div>
                     </div>
                 </div>
