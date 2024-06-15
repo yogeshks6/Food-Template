@@ -46,11 +46,12 @@ export const Home = () => {
                 </div>
             </section>
             {/* Dishes section end */}
+
             {/* Services section start */}
             <section className="web-marg-top">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-lg-6 col-md-7 my-5">
+                        <div className="col-12 col-lg-6 col-md-5 my-5">
                             <h1 className="sec-h4-italic mb-4"><i>Our Story & Services</i></h1>
 
                             <h1 className="fw-bold width-30px mb-4 lh-sm mt-4">Our Culinary Journey And Services</h1>
@@ -58,21 +59,32 @@ export const Home = () => {
                             <WebButton />
 
                         </div>
-                        <div className="col-12 col-lg-6 col-md-5">
+                        <div className="col-12 col-lg-6 col-md-7">
                             <div className="row">
                                 <ServicesCard />
-                                <ServicesCard />
                             </div>
-                            <div className="row mt-3">
-                                <ServicesCard />
-                                <ServicesCard />
-                            </div>
-
                         </div>
                     </div>
                 </div>
             </section>
             {/* Services section end */}
+            {/* Morning section start */}
+            <section className="web-marg-top morning-sec">
+
+                <div className="container">
+                    <div className="row pt-4">
+                        <div className="col-12 col-lg-5 col-md-5  mt-3">
+                            <h1 className="sec-h4-italic mb-4 text-light fs-4"><i>New Menu</i></h1>
+                            <h1 className="text-light">Morning Sandwich</h1>
+                            <p className="text-light pt-3">Start your day with a delicious and energizing morning <br /> sandwich! Made with fresh ingredients. Enjoy classic egg <br /> and cheese or a gourmet twist with avocado and bacon, <br /> perfect for kickstarting your morning.</p>
+                        </div>
+                        <div className="col-12 col-lg-7 col-md-7">
+                            <img src="images/morning-sec-sandwich.png" alt="" className="w-100 " />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* MOrning section end */}
         </>
     )
 }
