@@ -70,7 +70,6 @@ export const Home = () => {
             {/* Services section end */}
             {/* Morning section start */}
             <section className="web-marg-top morning-sec ">
-                {/* <img src="images/leafs.png" className="morning-sec-side-img position-absolute top-0 start-0" alt="" /> */}
                 <div className="container">
                     <div className="row pt-4">
                         <div className="col-12 col-lg-5 col-md-5  mt-3">
@@ -85,6 +84,94 @@ export const Home = () => {
                 </div>
             </section>
             {/* MOrning section end */}
+
+
+            {/* Testimonials section start */}
+            <section className="web-marg-top">
+                <div className="container">
+                    <div className="row  align-items-center">
+                        <div className="col-12 col-lg-6 col-md-5 my-6">
+                            <img src="images/chef.png" alt="" className="" />
+                        </div>
+                        <div className="col-12 col-lg-6 col-md-5  pt-5">
+                            <h1 className="sec-h4-italic mb-4"><i>Testimonials</i></h1>
+                            <h1 className="mb-3">What Our Customers <br /> Say About Us</h1>
+                            <p>“I had the pleasure of dining at Foodi last night, and I'm still <br /> raving about the experience! The attention to detail in <br /> presentation and service was impeccable”</p>
+                            <div className="d-flex gap-5 mt-5">
+                                <div>
+                                    <img src="images/chef-people-1.png" alt="" />
+                                    <img src="images/chef-people-2.png" alt="" />
+                                    <img src="images/chef-people-3.png" alt="" />
+                                </div>
+                                <div>
+                                    <p className="fs-4 fw-bold mb-2">Customer Feedback</p>
+                                    <p className="d-flex gap-3"><span className="fw-bold fs-5"><i class="fa-solid fa-star" style={{ color: "#ffe605" }}></i>4.9</span>
+                                        <span className="fs-5" style={{ color: "rgba(128, 126, 126, 1)" }}>(18.6k Reviews)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Testimonials section end */}
         </>
     )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

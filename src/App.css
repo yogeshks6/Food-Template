@@ -156,13 +156,26 @@ body {
   background-repeat: no-repeat;
   height: 500px;
 }
-/* 
-.morning-sec-side-img {
-  margin: 8% 0px 0px 1%;
-  width: 10%;
-} */
 
 /* morning section end */
+
+
+/* Testimonials section start */
+
+.testi-img img {
+  width: 80px;
+  height: 80px;
+}
+
+.testi-img-2 {
+  left: 54%;
+}
+
+.testi-img-3 {
+  left: 58%;
+}
+
+/* Testimonials section end */
 
 
 @media only screen and (max-width: 768px) {}
