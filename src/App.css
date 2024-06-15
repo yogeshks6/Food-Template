@@ -128,18 +128,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots{
+
+.slick-dots {
   display: none !important;
 }
 
 
 /* servies section start */
-.services-card{
-width: 50%; 
+.services-card {
+  width: 50%;
+  color: #EB662D;
 }
-.services-card:hover{
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
- border-radius: 20px;
+
+.services-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  ;
+  border-radius: 20px;
 }
+
 /* servies section end */
 @media only screen and (max-width: 768px) {}
