@@ -181,11 +181,15 @@ body {
 
 /* menu section start */
 .menu-sec {
+  margin-top: 13%;
+  background-position: center;
   background-image: url(../public/images/menu-sec.png);
-  height: 4000px;
+  height: 3300px;
   background-repeat: no-repeat;
+ }
+.menu-logo{
+   height: 31px;
 }
-
 /* menu section end */
 
 

@@ -91,7 +91,7 @@ export const Home = () => {
                 <div className="container">
                     <div className="row  align-items-center">
                         <div className="col-12 col-lg-6 col-md-5 my-6">
-                            <img src="images/chef.png" alt="" className="" />
+                            <img src="images/chef.png" alt="" className="w-100" />
                         </div>
                         <div className="col-12 col-lg-6 col-md-5  pt-5">
                             <h1 className="sec-h4-italic mb-4"><i>Testimonials</i></h1>
@@ -120,8 +120,13 @@ export const Home = () => {
             {/* Menu section start */}
             <section className="web-marg-top">
                 <div className="container menu-sec">
-                    <div className="row">
+                    <div className="row position-relative">
 
+                        <p className="text-center pt-0 position-absolute top-0 start-50 translate-middle">
+                            <h1 className="sec-h4-italic fs-2 mb-3 "><i>THE</i></h1>
+                             <h1 className="fw-bold mt-0">Menu</h1>
+                            <img src="images/menu-logo.png" className="menu-logo mt-1" alt="menu-img" />
+                        </p>
                     </div>
                 </div>
             </section>
