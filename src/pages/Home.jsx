@@ -114,6 +114,19 @@ export const Home = () => {
                 </div>
             </section>
             {/* Testimonials section end */}
+
+
+
+            {/* Menu section start */}
+            <section className="web-marg-top">
+                <div className="container menu-sec">
+                    <div className="row">
+
+                    </div>
+                </div>
+            </section>
+            {/* Menu section end */}
+
         </>
     )
 }

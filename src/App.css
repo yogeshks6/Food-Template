@@ -178,4 +178,15 @@ body {
 /* Testimonials section end */
 
 
+
+/* menu section start */
+.menu-sec {
+  background-image: url(../public/images/menu-sec.png);
+  height: 4000px;
+  background-repeat: no-repeat;
+}
+
+/* menu section end */
+
+
 @media only screen and (max-width: 768px) {}
