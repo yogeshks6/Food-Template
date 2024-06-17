@@ -190,6 +190,12 @@ body {
 .menu-logo{
    height: 31px;
 }
+.menu{
+  margin-top: 12%;
+}
+.menu-h1{
+  color: rgba(235, 102, 45, 1);
+}
 /* menu section end */
 
 

@@ -1,3 +1,4 @@
+import { Menu } from "../components/Menu"
 import { Navbar } from "../components/Navbar"
 import { ServicesCard } from "../components/ServicesCard"
 import SimpleSlider from "../components/SimpleSlider"
@@ -121,13 +122,18 @@ export const Home = () => {
             <section className="web-marg-top">
                 <div className="container menu-sec">
                     <div className="row position-relative">
-
-                        <p className="text-center pt-0 position-absolute top-0 start-50 translate-middle">
-                            <h1 className="sec-h4-italic fs-2 mb-3 "><i>THE</i></h1>
-                             <h1 className="fw-bold mt-0">Menu</h1>
-                            <img src="images/menu-logo.png" className="menu-logo mt-1" alt="menu-img" />
-                        </p>
+                        <div className="col-12 col-lg-12 col-md-12">
+                            <p className="text-center pt-0 position-absolute top-0 start-50 translate-middle">
+                                <h1 className="sec-h4-italic fs-2 mb-3 "><i>THE</i></h1>
+                                <h1 className="fw-bold mt-0">Menu</h1>
+                                <img src="images/menu-logo.png" className="menu-logo mt-1" alt="menu-img" />
+                            </p></div>
                     </div>
+                    <div className="col-12 col-lg-12 col-md-12 ">
+                        <Menu/>
+                    </div>
+
+
                 </div>
             </section>
             {/* Menu section end */}
