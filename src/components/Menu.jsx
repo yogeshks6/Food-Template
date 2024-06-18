@@ -38,7 +38,7 @@ export const Menu = () => {
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$12</h4>
                         </div>
-                      
+
                     </div>
                 </div>
 
@@ -88,7 +88,7 @@ export const Menu = () => {
 
 
                 <div className="d-lg-flex  mt-5 align-items-center">
-                <div className="col-12 col-lg-5 col-md-5 ps-5">
+                    <div className="col-12 col-lg-5 col-md-5 ps-5">
                         <img src="images/menu-img-3.png" className="w-100" alt="" />
                     </div>
                     <div className="col-12 col-lg-7 col-md-7 ps-5">
@@ -174,10 +174,10 @@ export const Menu = () => {
 
 
 
-                
+
 
                 <div className="d-lg-flex  mt-5 align-items-center">
-                <div className="col-12 col-lg-5 col-md-5 ps-5">
+                    <div className="col-12 col-lg-5 col-md-5 ps-5">
                         <img src="images/menu-img-5.png" className="w-100" alt="" />
                     </div>
                     <div className="col-12 col-lg-7 col-md-7 ps-5">
@@ -267,7 +267,7 @@ export const Menu = () => {
 
 
                 <div className="d-lg-flex  mt-5 align-items-center">
-                <div className="col-12 col-lg-5 col-md-5 ps-5">
+                    <div className="col-12 col-lg-5 col-md-5 ps-5">
                         <img src="images/menu-img-7.png" className="w-100" alt="" />
                     </div>
                     <div className="col-12 col-lg-7 col-md-7 ps-5">
