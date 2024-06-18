@@ -2,11 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import { FoodCard } from "./FoodCard";
 
-
-
-
-
-
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
