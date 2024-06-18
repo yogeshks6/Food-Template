@@ -193,7 +193,7 @@ body {
 }
 
 .menu {
-  margin-top: 12%;
+  margin-top: 12% !important;
 }
 
 .menu-h1 {
