@@ -186,17 +186,20 @@ body {
   background-image: url(../public/images/menu-sec.png);
   height: 3300px;
   background-repeat: no-repeat;
- }
-.menu-logo{
-   height: 31px;
 }
-.menu{
+
+.menu-logo {
+  height: 31px;
+}
+
+.menu {
   margin-top: 12%;
 }
-.menu-h1{
+
+.menu-h1 {
   color: rgba(235, 102, 45, 1);
 }
- 
+
 /* menu section end */
 
 
