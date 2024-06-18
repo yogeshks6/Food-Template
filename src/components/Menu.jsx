@@ -215,6 +215,52 @@ export const Menu = () => {
                     </div>
                 </div>
 
+
+
+
+
+
+
+                <div className="d-lg-flex  mt-5 align-items-center">
+                    <div className="col-12 col-lg-7 col-md-7 ps-5">
+                        <h1 className="menu-h1 mb-4 fw-normal">Cake</h1>
+                        <div className="d-flex mb-2">
+                            <h4 className="w-100 me-5 fw-normal">Black Forest</h4>
+                            <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
+                            <h4 className="me-5 w-100 text-end fw-normal">$12</h4>
+                        </div>
+                        <div className="d-flex mb-2">
+                            <h4 className="w-100 me-5 fw-normal">Pineapple Cake</h4>
+                            <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
+                            <h4 className="me-5 w-100 text-end fw-normal">$13</h4>
+                        </div>
+                        <div className="d-flex mb-2">
+                            <h4 className="w-100 me-5 fw-normal">Eggless Truffle</h4>
+                            <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
+                            <h4 className="me-5 w-100 text-end fw-normal">$12</h4>
+                        </div>
+                        <div className="d-flex mb-2">
+                            <h4 className="w-100 me-5 fw-normal">Coffee Cake</h4>
+                            <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
+                            <h4 className="me-5 w-100 text-end fw-normal">$14</h4>
+                        </div>
+                        <div className="d-flex mb-2">
+                            <h4 className="w-100 me-5 fw-normal">Fudgy Chocolate</h4>
+                            <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
+                            <h4 className="me-5 w-100 text-end fw-normal">$22</h4>
+                        </div>
+                        <div className="d-flex mb-2">
+                            <h4 className="w-100 me-5 fw-normal">Mango Meringue</h4>
+                            <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
+                            <h4 className="me-5 w-100 text-end fw-normal">$8</h4>
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-5 col-md-5 pe-5">
+                        <img src="images/menu-img-6.png" className="w-100" alt="" />
+                    </div>
+                </div>
+
+
             </div>
         </>
     )
