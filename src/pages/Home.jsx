@@ -129,8 +129,8 @@ export const Home = () => {
                                 <img src="images/menu-logo.png" className="menu-logo mt-1" alt="menu-img" />
                             </p></div>
                     </div>
-                    <div className="col-12 col-lg-12 col-md-12 ">
-                        <Menu/>
+                    <div className="">
+                        <Menu />
                     </div>
 
 
