@@ -203,32 +203,55 @@ body {
 /* menu section end */
 
 /* Footer section start  */
-.footer-margin{
+.footer-margin {
   margin-top: 25%;
- 
+
 }
-.footer-upper-img{
+
+.footer-upper-img {
   top: -202px !important;
   position: absolute;
   z-index: -5;
 }
-.footer-bg{
+
+.footer-bg {
   background-image: url(../public/images/footer-bg.png);
   background-size: cover;
-  height: 500px;
 }
-.footer-first-line{
+
+.footer-first-line {
   padding-top: 12%;
 }
-.footer-first-line-p{
+
+.footer-first-line-p {
   font-size: 50px;
 }
+
 .footer-input-btn {
   position: relative;
   right: 175px;
   box-shadow: inset 1px 1px 5px #333;
   z-index: 2;
 }
+
+.footer-second-line {
+  margin-top: 7%;
+}
+
+.footer-social i {
+  background-image: url(../public/images/footer-social-bg.png);
+  width: 58px;
+  height: 57px;
+  /* background-color: rgba(255, 255, 255, 0.275); */
+}
+
+.footer-social i:hover {
+  background-image: url(../public/images/footer-social-bg-2.png);
+  cursor: pointer;
+  color: rgba(235, 102, 45, 1);
+  width: 58px;
+}
+
 /* Footer section end  */
 
 

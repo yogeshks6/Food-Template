@@ -143,7 +143,7 @@ export const Home = () => {
 
 
             {/* Footer section start */}
-            <Footer/>
+            <Footer />
             {/* Footer section end */}
 
         </>
