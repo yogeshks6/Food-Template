@@ -202,5 +202,34 @@ body {
 
 /* menu section end */
 
+/* Footer section start  */
+.footer-margin{
+  margin-top: 25%;
+ 
+}
+.footer-upper-img{
+  top: -202px !important;
+  position: absolute;
+  z-index: -5;
+}
+.footer-bg{
+  background-image: url(../public/images/footer-bg.png);
+  background-size: cover;
+  height: 500px;
+}
+.footer-first-line{
+  padding-top: 12%;
+}
+.footer-first-line-p{
+  font-size: 50px;
+}
+.footer-input-btn {
+  position: relative;
+  right: 175px;
+  box-shadow: inset 1px 1px 5px #333;
+  z-index: 2;
+}
+/* Footer section end  */
+
 
 @media only screen and (max-width: 768px) {}

@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer"
 import { Menu } from "../components/Menu"
 import { Navbar } from "../components/Navbar"
 import { ServicesCard } from "../components/ServicesCard"
@@ -137,6 +138,13 @@ export const Home = () => {
                 </div>
             </section>
             {/* Menu section end */}
+
+
+
+
+            {/* Footer section start */}
+            <Footer/>
+            {/* Footer section end */}
 
         </>
     )
