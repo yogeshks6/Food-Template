@@ -140,7 +140,8 @@ export const Home = () => {
             {/* Menu section end */}
 
 
-
+{/* booking section start */}
+{/* booking section end */}
 
             {/* Footer section start */}
             <Footer />
