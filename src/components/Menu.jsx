@@ -29,7 +29,7 @@ export const Menu = () => {
                             <h4 className="me-5 w-100 text-end fw-normal">$8</h4>
                         </div>
                         <div className="d-flex mb-2">
-                            <h4 className="w-100 me-5 fw-normal">Chicken Marsala</h4>
+                            <h4 className="w-100 me-5 fw-normal">Chicken  </h4>
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$14</h4>
                         </div>
@@ -60,7 +60,7 @@ export const Menu = () => {
                             <h4 className="me-5 w-100 text-end fw-normal">$13</h4>
                         </div>
                         <div className="d-flex mb-2">
-                            <h4 className="w-100 me-5 fw-normal">Cottage Cheese</h4>
+                            <h4 className="w-100 me-5 fw-normal">Cottage</h4>
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$12</h4>
                         </div>
@@ -188,7 +188,7 @@ export const Menu = () => {
                             <h4 className="me-5 w-100 text-end fw-normal">$12</h4>
                         </div>
                         <div className="d-flex mb-2">
-                            <h4 className="w-100 me-5 fw-normal">Le Pigeon Burger</h4>
+                            <h4 className="w-100 me-5 fw-normal">Le Pigeon</h4>
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$13</h4>
                         </div>
@@ -203,7 +203,7 @@ export const Menu = () => {
                             <h4 className="me-5 w-100 text-end fw-normal">$8</h4>
                         </div>
                         <div className="d-flex mb-2">
-                            <h4 className="w-100 me-5 fw-normal">Dyer’s Deep-fried</h4>
+                            <h4 className="w-100 me-5 fw-normal">Dyer’s Deep</h4>
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$14</h4>
                         </div>
@@ -245,12 +245,12 @@ export const Menu = () => {
                             <h4 className="me-5 w-100 text-end fw-normal">$14</h4>
                         </div>
                         <div className="d-flex mb-2">
-                            <h4 className="w-100 me-5 fw-normal">Fudgy Chocolate</h4>
+                            <h4 className="w-100 me-5 fw-normal">Fudgy </h4>
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$22</h4>
                         </div>
                         <div className="d-flex mb-2">
-                            <h4 className="w-100 me-5 fw-normal">Mango Meringue</h4>
+                            <h4 className="w-100 me-5 fw-normal">Mango</h4>
                             <img src="images/menu-img-rate.png" className="w-25 h-25 ms-5" alt="" />
                             <h4 className="me-5 w-100 text-end fw-normal">$8</h4>
                         </div>

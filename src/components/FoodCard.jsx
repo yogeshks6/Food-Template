@@ -7,27 +7,13 @@ export const FoodCard = () => {
             "product_name": "Fattoush salad",
             "description": "Description of the item"
         },
-        {
-            "prroduct_img": 'images/card-2.png',
-            "price": 24.00,
-            "rating": 4.9,
-            "product_name": "Fattoush salad",
-            "description": "Description of the item"
-        },
-        {
-            "prroduct_img": 'images/card-3.png',
-            "price": 24.00,
-            "rating": 4.9,
-            "product_name": "Fattoush salad",
-            "description": "Description of the item"
-        },
 
     ]
     return (
         <>
             {jasondata.map((currElem) => {
                 return (
-                    <div className="col-12 col-lg-12 col-sm-12 m-5">
+                    <div classNamse="col-12 col-lg-12 col-sm-12 m-5">
                         <div className="card-food rounded-5  pb-2">
                             <div className="card-food-heart float-end p-3 px-4">
                                 <i className="fa-regular fa-heart"></i>

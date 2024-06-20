@@ -1,3 +1,4 @@
+import { Booking } from "../components/Booking"
 import { Footer } from "../components/Footer"
 import { Menu } from "../components/Menu"
 import { Navbar } from "../components/Navbar"
@@ -34,7 +35,7 @@ export const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-12 col-sm-12">
-                            <h1 className="sec-h4-italic mb-4"><i>Special Dishes</i></h1>
+                            <h1 className="sec-h4-italic mb-4">Special Dishes</h1>
                         </div>
                         <div className="col-12 col-lg-12 col-sm-12 d-flex justify-content-between">
                             <h1>Special Dishes From <br />
@@ -54,7 +55,7 @@ export const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-6 col-md-5 my-5">
-                            <h1 className="sec-h4-italic mb-4"><i>Our Story & Services</i></h1>
+                            <h1 className="sec-h4-italic mb-4"> Our Story & Services </h1>
 
                             <h1 className="fw-bold width-30px mb-4 lh-sm mt-4">Our Culinary Journey And Services</h1>
                             <p className="w-75 mb-5 fw-semibold">Rooted in passion, we curate unforgettable dining <br /> experiences and offer exceptional services, blending <br /> culinary artistry with warm hospitality.</p>
@@ -75,7 +76,7 @@ export const Home = () => {
                 <div className="container">
                     <div className="row pt-4">
                         <div className="col-12 col-lg-5 col-md-5  mt-3">
-                            <h1 className="sec-h4-italic mb-4 text-light fs-4"><i>New Menu</i></h1>
+                            <h1 className="sec-h4-italic mb-4 text-light fs-4">New Menu </h1>
                             <h1 className="text-light">Morning Sandwich</h1>
                             <p className="text-light pt-3">Start your day with a delicious and energizing morning <br /> sandwich! Made with fresh ingredients. Enjoy classic egg <br /> and cheese or a gourmet twist with avocado and bacon, <br /> perfect for kickstarting your morning.</p>
                         </div>
@@ -96,7 +97,7 @@ export const Home = () => {
                             <img src="images/chef.png" alt="" className="w-100" />
                         </div>
                         <div className="col-12 col-lg-6 col-md-5  pt-5">
-                            <h1 className="sec-h4-italic mb-4"><i>Testimonials</i></h1>
+                            <h1 className="sec-h4-italic mb-4">Testimonials</h1>
                             <h1 className="mb-3">What Our Customers <br /> Say About Us</h1>
                             <p>“I had the pleasure of dining at Foodi last night, and I'm still <br /> raving about the experience! The attention to detail in <br /> presentation and service was impeccable”</p>
                             <div className="d-flex gap-5 mt-5">
@@ -125,7 +126,7 @@ export const Home = () => {
                     <div className="row position-relative">
                         <div className="col-12 col-lg-12 col-md-12">
                             <p className="text-center pt-0 position-absolute top-0 start-50 translate-middle">
-                                <h1 className="sec-h4-italic fs-2 mb-3 "><i>THE</i></h1>
+                                <h1 className="sec-h4-italic fs-2 mb-3 "> THE </h1>
                                 <h1 className="fw-bold mt-0">Menu</h1>
                                 <img src="images/menu-logo.png" className="menu-logo mt-1" alt="menu-img" />
                             </p></div>
@@ -140,8 +141,9 @@ export const Home = () => {
             {/* Menu section end */}
 
 
-{/* booking section start */}
-{/* booking section end */}
+            {/* booking section start */}
+            <Booking />
+            {/* booking section end */}
 
             {/* Footer section start */}
             <Footer />
