@@ -86,6 +86,28 @@ body {
   font-weight: 700;
 }
 
+
+/* welcome section */
+.welcome-sec{
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+.welcome-sec-h1{
+  font-size: 50px;
+}
+.welcome-btn{
+  color: #EB662D !important;
+ border: 2px solid; 
+}
+.welcome-h4{
+color: rgba(92, 101, 116, 1);
+}
+.welcome-btn:hover{
+ background-color: #EB662D !important;
+ color: white !important;
+}
+/* welcome end */
+
 /* card start */
 .card-food {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

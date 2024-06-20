@@ -13,7 +13,7 @@ export const FoodCard = () => {
         <>
             {jasondata.map((currElem) => {
                 return (
-                    <div classNamse="col-12 col-lg-12 col-sm-12 m-5">
+                    <div className="col-12 col-lg-12 col-sm-12 m-5">
                         <div className="card-food rounded-5  pb-2">
                             <div className="card-food-heart float-end p-3 px-4">
                                 <i className="fa-regular fa-heart"></i>

@@ -15,7 +15,7 @@ export const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-6 col-md-7 my-5">
-                            <h1 className="fw-bold width-30px mb-4 lh-sm mt-4">Dive into Delights Of Delectable <a href="" className="text-decoration-none hero-h1-orange">Food</a></h1>
+                            <h1 className="fw-bold width-30px mb-4 lh-sm mt-4">Dive into Delights <br />Of Delectable <a href="" className="text-decoration-none hero-h1-orange">Food</a></h1>
                             <p className="w-75 mb-5">Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
                             <div className="d-flex  align-items-center gap-5">
                                 <WebButton />
@@ -29,6 +29,28 @@ export const Home = () => {
                 </div>
             </section>
             {/* Hero start */}
+
+
+            {/* Welcome section start  */}
+            <section className=" welcome-sec ">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-lg-6 col-md-6">
+                            <img src="images/welcome-section-img.png" className="w-100" alt="" />
+                        </div>
+                        <div className="col-12 col-lg-6 col-md-6 mt-5">
+                            <h1 className="welcome-sec-h1 mt-5">Wecome to Our <br /> Restaurant</h1>
+                            <h5 className="welcome-h4 lh-base mt-4">Discover a delightful dining experience with us, where exquisite flavors and a warm atmosphere come together to create unforgettable moments. Join us for a meal you'll remember!</h5>
+                            <div className="d-flex gap-4 mt-5">
+                                <WebButton />
+                                <button type="button" className="fs-4 px-5 py-3 bg-white welcome-btn rounded-pill fw-semibold">Book Your Table</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Welcome section end  */}
+
 
             {/* Dishes section start */}
             <section className="">
