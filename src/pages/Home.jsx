@@ -8,7 +8,7 @@ import { WebButton } from "../components/WebButton"
 
 export const Home = () => {
     return (
-        <>
+        <> 
             <Navbar />
             {/* Hero start */}
             <section className="hero ">
