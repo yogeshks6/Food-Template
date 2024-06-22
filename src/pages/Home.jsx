@@ -22,7 +22,7 @@ export const Home = () => {
                                 <p className="mt-3">Watch Video <a href="" className="rounded-circle video-play p-4 mx-2"><img src="images/video-play.png" className="mb-2" alt="" /></a></p>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6 col-sm-5 ">
+                        <div className="col-12 col-lg-6 col-sm-5">
                             <img className="home-right-food-img" src="images/home-food.png" alt="" />
                         </div>
                     </div>
