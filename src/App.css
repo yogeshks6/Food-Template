@@ -88,24 +88,29 @@ body {
 
 
 /* welcome section */
-.welcome-sec{
+.welcome-sec {
   margin-top: 5%;
   margin-bottom: 8%;
 }
-.welcome-sec-h1{
+
+.welcome-sec-h1 {
   font-size: 50px;
 }
-.welcome-btn{
+
+.welcome-btn {
   color: #EB662D !important;
- border: 2px solid; 
+  border: 2px solid;
 }
-.welcome-h4{
-color: rgba(92, 101, 116, 1);
+
+.welcome-h4 {
+  color: rgba(92, 101, 116, 1);
 }
-.welcome-btn:hover{
- background-color: #EB662D !important;
- color: white !important;
+
+.welcome-btn:hover {
+  background-color: #EB662D !important;
+  color: white !important;
 }
+
 /* welcome end */
 
 /* card start */
@@ -229,7 +234,7 @@ color: rgba(92, 101, 116, 1);
 /* booking section start */
 .booking-margin {
   margin-top: 10%;
-   background-image: url(../public/images/booking-sec-bg.png);
+  background-image: url(../public/images/booking-sec-bg.png);
   background-repeat: no-repeat;
 }
 
